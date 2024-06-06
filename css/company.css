@@ -1,0 +1,28 @@
+.company {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-md)
+}
+
+.company__title {
+	display: flex;
+	gap: var(--gap-md)
+}
+
+.company__info {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--gap-xxl)
+}
+
+
+@media (max-width: 768px) {
+	.company__title {
+		flex-direction: column;
+		gap: var(--gap-sm)
+	}
+
+	.company__info {
+		gap: var(--gap-sm)
+	}
+}

@@ -1,0 +1,11 @@
+.badges {
+	padding: 6px 12px;
+	border: 1px solid black;
+	border-radius: 2px;
+	width: fit-content;
+}
+
+.badges_blue {
+	color: var(--color-blue);
+	border-color: var(--color-blue);
+}

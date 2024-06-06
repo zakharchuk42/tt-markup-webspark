@@ -1,0 +1,14 @@
+.icon {
+	cursor: pointer;
+	fill: var(--color-grey-light);
+	transition: all .3s ease;
+}
+
+.icon:hover {
+	fill: var(--color-blue);
+}
+
+.icon_is-active {
+	fill: var(--color-blue);
+	cursor: not-allowed;
+}

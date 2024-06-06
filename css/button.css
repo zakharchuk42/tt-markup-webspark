@@ -1,0 +1,16 @@
+.button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.button_grey {
+	border: 1px solid var(--color-grey);
+	color: var(--color-grey);
+	border-radius: 14px;
+	padding: 8px 26px;
+	text-transform: uppercase;
+}

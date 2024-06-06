@@ -1,0 +1,68 @@
+@import url('variables.css');
+@import url('reset.css');
+@import url('header.css');
+@import url('company.css');
+@import url('badges.css');
+@import url('typography.css');
+@import url('flex.css');
+@import url('button.css');
+@import url('icon.css');
+@import url('view.css');
+@import url('card.css');
+@import url('padding.css');
+@import url('datepicker.css');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: var(--color-body-bg);
+	position: relative;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+.container {
+	max-width: var(--width-container);
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.body-bg {
+	position: absolute;
+	z-index: -1;
+}
+
+.body-bg_left {
+	left: 0;
+	top: 0
+}
+
+.body-bg_right {
+	right: 0;
+	bottom: 50px;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 18px;
+	}
+
+	.body-bg_left {
+		left: -50%;
+	}
+}
+
+@media (max-width: 576px) {
+	.body-bg_left {
+		top: 0;
+		left: -100%;
+	}
+}

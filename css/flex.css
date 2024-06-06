@@ -1,0 +1,35 @@
+.flex {
+	display: flex;
+}
+
+.flex__direction_column {
+	flex-direction: column;
+}
+
+.flex__justify_end {
+	justify-content: end;
+}
+
+.flex__justify_center {
+	justify-content: center;
+}
+
+.flex__justify_between {
+	justify-content: space-between;
+}
+
+.flex__align_center {
+	align-items: center;
+}
+
+.flex__gap_sm {
+	gap: var(--gap-sm);
+}
+
+.flex__gap_xl {
+	gap: var(--gap-xl);
+}
+
+.flex_grow {
+	flex-grow: 1;
+}

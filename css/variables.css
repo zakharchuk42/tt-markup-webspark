@@ -1,0 +1,25 @@
+:root {
+	/* COLOR */
+	--color-body-bg: #FAFAFA;
+	--color-white: #FFFFFF;
+	--color-black: #000000;
+	--color-blue: #3D8EDA;
+	--color-grey: #929292;
+	--color-grey-light: #C8C7C7;
+	--color-shadow: #0000001F;
+
+	/* WIDTH */
+	--width-container: 836px;
+
+	/* GAP */
+	--gap-sm: 7px;
+	--gap-md: 15px;
+	--gap-xl: 20px;
+	--gap-xxl: 28px;
+
+	/* PADDING */
+	--padding-sm: 8px;
+	--padding-md: 15px;
+	--padding-xl: 20px;
+	--padding-xxl: 33px;
+}

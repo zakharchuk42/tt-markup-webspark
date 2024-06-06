@@ -1,0 +1,16 @@
+.typography {
+	font-family: 'Roboto', sans-serif;
+}
+
+.typography_subtitle {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.typography_semi-weight {
+	font-weight: 500;
+}
+
+.typography_weight {
+	font-weight: 700;
+}

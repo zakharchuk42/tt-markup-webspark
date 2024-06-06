@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Zakharchuk Test</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<img class="header__logo" src="img/logo.png" alt="company logo">
+					<div class="company">
+						<div class="company__title">
+							<h1>
+								monblanproject
+							</h1>
+							<div class="badges badges_blue">
+								Start on  17-02-2016
+							</div>
+						</div>
+						<div class="company__info">
+							<p>
+								<span class="typography typography_weight">870</span> posts
+							</p>
+							<p>
+								<span class="typography typography_weight">11,787</span> followers
+							</p>
+							<p>
+								<span class="typography typography_weight">112</span> following
+							</p>
+						</div>
+						<div class="datepicker">
+							<p>Date</p>
+							<div class="flatpickr datepicker__wrapper">
+								<input class="datepicker__input" type="text" placeholder="from" data-input>
+								<div class="datepicker__icon-wrapper">
+									<a class="datepicker__icon" title="clear" data-clear>
+										<img src="img/close.svg" alt="close">
+									</a>
+									<a class="datepicker__icon" title="toggle" data-toggle>
+										<img src="img/calendar.svg" alt="calendar">
+									</a>
+								</div>
+							</div>
+							<div class="flatpickr datepicker__wrapper">
+								<input class="datepicker__input" type="text" placeholder="to" data-input>
+								<div class="datepicker__icon-wrapper">
+									<a class="datepicker__icon" title="clear" data-clear>
+										<img src="img/close.svg" alt="close">
+									</a>
+									<a class="datepicker__icon" title="toggle" data-toggle>
+										<img src="img/calendar.svg" alt="calendar">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="flex flex_grow">
+			<div class="container">
+				<div class="flex flex__justify_end flex__gap_xl padding padding__vertical_xl">
+					<button id="handleListView" class="button">
+						<svg class="icon" width="24" height="22" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+							<rect width="6" height="6"/>
+							<rect y="8" width="6" height="6"/>
+							<rect y="16" width="6" height="6"/>
+							<rect x="9" y="10" width="15" height="2"/>
+							<rect x="9" y="18" width="15" height="2"/>
+							<rect x="9" y="2" width="15" height="2"/>
+						</svg>
+					</button>
+					<button id="handleRectView" class="button">
+						<svg class="icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+							<rect width="6" height="6"/>
+							<rect x="8" width="6" height="6"/>
+							<rect x="16" width="6" height="6"/>
+							<rect y="8" width="6" height="6"/>
+							<rect y="16" width="6" height="6"/>
+							<rect x="8" y="8" width="6" height="6"/>
+							<rect x="8" y="16" width="6" height="6"/>
+							<rect x="16" y="8" width="6" height="6"/>
+							<rect x="16" y="16" width="6" height="6"/>
+						</svg>
+					</button>
+				</div>
+				<div id="root"></div>
+				<div class="flex flex__justify_center padding padding__vertical_xxl">
+					<button class="button button_grey">
+						Load More
+					</button>
+				</div>
+			</div>
+		</main>
+
+		<img class="body-bg body-bg_left" src="img/body-bg-left.svg" alt="company logo">
+		<img class="body-bg body-bg_right" src="img/body-bg-right.svg" alt="company logo">
+		<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+.list-view {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-sm)
+}
+
+.card-view {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 10px;
+	max-width: 100%;
+	justify-content: center;
+}

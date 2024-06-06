@@ -1,0 +1,61 @@
+.datepicker {
+	display: flex;
+	align-items: center;
+	gap: var(--gap-md);
+}
+
+.datepicker__wrapper {
+	position: relative;
+	display: flex;
+	border-radius: 4px;
+	background-color: var(--color-white);
+	border: 1px solid #DEDEDE;
+
+}
+
+.datepicker__input {
+	color: var(--color-black);
+	width: 100%;
+	padding: 4px;
+}
+
+.datepicker__icon-wrapper {
+	display: flex;
+	align-items: center;
+	background-color: #EBEBEB;
+}
+
+.datepicker__icon-wrapper:last-child {
+	border-radius: 0 4px 4px 0;
+}
+
+.datepicker__icon {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.datepicker__icon:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	border-left: 1px solid #DEDEDE;
+	height: 100%;
+}
+
+.datepicker__icon:hover {
+	background-color: #d7d7d7;
+}
+
+@media (max-width: 576px) {
+	.datepicker {
+		flex-direction: column;
+		align-items: start;
+		gap: var(--gap-sm);
+	}
+}

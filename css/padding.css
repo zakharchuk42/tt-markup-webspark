@@ -1,0 +1,15 @@
+.padding {
+	padding: 0;
+}
+
+.padding__vertical_xl {
+	padding: var(--padding-xl) 0;
+}
+
+.padding__vertical_xxl {
+	padding: var(--padding-xxl) 0;
+}
+
+.padding__horizontal_md {
+	padding: 0 var(--padding-md);
+}
